@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "378203977570",
+    "firebase_url": "https://gocidade-5c766.firebaseio.com",
+    "project_id": "gocidade-5c766",
+    "storage_bucket": "gocidade-5c766.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378203977570:android:f44e9245fe4b36c8",
+        "android_client_info": {
+          "package_name": "br.ufs.projetos.gocidade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378203977570-ss7r1vimhb9qeg6bvjqp4i92t79nf5i6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.ufs.projetos.gocidade",
+            "certificate_hash": "0fa927c8122953a08f395df3a9e2f0d7f2af76e4"
+          }
+        },
+        {
+          "client_id": "378203977570-c5val6seke4bql764mthvkuoh57iduum.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBudzsGmx3DSmXw4BwAAhtFTbqMlqLl3sI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "378203977570-c5val6seke4bql764mthvkuoh57iduum.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

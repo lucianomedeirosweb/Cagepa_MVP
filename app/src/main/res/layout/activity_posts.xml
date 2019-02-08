@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.ufs.projetos.gocidade.ui.post.PostActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="136dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="77dp"
+        app:layout_constraintBottom_toTopOf="@+id/spinner_categories"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_camera" />
+
+    <Spinner
+        android:id="@+id/spinner_categories"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="27dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_post_address"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/txt_post_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_marginEnd="18dp"
+        android:text="Rua dos Bobos, 0, cidade de Ninguem"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        app:layout_constraintBottom_toTopOf="@+id/post_comment_box"
+        app:layout_constraintEnd_toEndOf="@+id/post_comment_box"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_categories" />
+
+    <EditText
+        android:id="@+id/post_comment_box"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginStart="22dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="Comentários"
+        app:layout_constraintBottom_toTopOf="@+id/btn_post_publish"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_post_address" />
+
+    <Button
+        android:id="@+id/btn_post_publish"
+        android:layout_width="364dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="36dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/btn_publish"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/post_comment_box" />
+
+</android.support.constraint.ConstraintLayout>
